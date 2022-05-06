@@ -1,0 +1,58 @@
+.spisok {
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  
+  .element {
+    flex-direction: row;
+    width: 80px;
+  }
+  
+  .border {
+    border: 1px solid #bdbdbd;
+  }
+
+.inp1 {
+    position: absolute;
+    left: 29%;
+    bottom: 815px;
+}
+
+button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.inp2 {
+    position: absolute;
+    left: 29%;
+    bottom: 782px;
+}
+
+.inp3 {
+    position: absolute;
+    left: 29%;
+    bottom: 747px;
+}
+
+.adddetails {
+    box-sizing: border-box;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #BDBDBD;
+    border-radius: 12px;
+}
+
