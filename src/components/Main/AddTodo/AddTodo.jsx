@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import styles from "./addTodo.module.css";
 import { v4 as uuidv4 } from "uuid";
-
+console.log("привет, Вадим")
 const AddTodo = ({ setTodos, todos }) => {
   let [todo, setTodo] = useState("");
 
@@ -12,7 +12,8 @@ const AddTodo = ({ setTodos, todos }) => {
   const addTodo = (e) => {
     if (todo === "") {
       alert("Введите задачу");
-    } else {
+    } 
+    else {
       const newTodo = {
         id: uuidv4(),
         text: todo,
