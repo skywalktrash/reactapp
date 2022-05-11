@@ -5,7 +5,7 @@ export default function Todos({ todos }) {
     <div>
       {todos.map((todo) => (
         <div>
-          {todo.text} была создана {todo.date.toLocaleString()}
+          {todo.text} была созданаhgjhghjghj ss{todo.date.toLocaleString()}
         </div>
       ))}
     </div>
