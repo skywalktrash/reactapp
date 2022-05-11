@@ -21,6 +21,10 @@ ul {
   padding-left: 0;
 }
 
+#root {
+  height: 100vh;
+}
+
 /* Sections
    ========================================================================== */
 
@@ -328,8 +332,6 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-
- /*test com
 
 details {
   display: block;

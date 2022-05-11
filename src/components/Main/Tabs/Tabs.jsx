@@ -10,16 +10,6 @@ export default function Tabs() {
         <li className={styles.element}>Complited</li>
       </ul>
       <div className={styles.border}></div>
-      <input type="text" placeholder="add details" className={styles.adddetails}/>
-      <button>Add</button>      
-      <div>
-        <input className={styles.inp1} type="checkbox"/>
-        <p className={styles.p1}>Do coding challange</p>
-        <input className={styles.inp2} type="checkbox"/>
-        <p className={styles.p2}>Do coding challange</p>
-        <input className={styles.inp3} type="checkbox"  />
-        <p className={styles.p3} >Do coding challange</p>
-      </div>
     </div>
   );
 }
